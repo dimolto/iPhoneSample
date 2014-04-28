@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>0B317C40-8815-4085-9457-FE3FF3BB6E50</string>
+	<key>IDESourceControlProjectName</key>
+	<string>iPhoneSample</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>D2C73FDD-51FF-413B-A843-63D3851AC520</key>
+		<string>ssh://github.com/dimolto/iPhoneSample.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>iPhoneSample.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>D2C73FDD-51FF-413B-A843-63D3851AC520</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>ssh://github.com/dimolto/iPhoneSample.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>D2C73FDD-51FF-413B-A843-63D3851AC520</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>D2C73FDD-51FF-413B-A843-63D3851AC520</string>
+			<key>IDESourceControlWCCName</key>
+			<string>iPhoneSample</string>
+		</dict>
+	</array>
+</dict>
+</plist>
