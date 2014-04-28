@@ -56,10 +56,10 @@
             </objects>
             <point key="canvasLocation" x="20" y="185"/>
         </scene>
-        <!--View Controller-->
+        <!--Button View Controller-->
         <scene sceneID="weR-G5-UaU">
             <objects>
-                <viewController id="MjJ-lY-drv" sceneMemberID="viewController">
+                <viewController id="MjJ-lY-drv" customClass="UIButtonViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="FDw-ht-Txk"/>
                         <viewControllerLayoutGuide type="bottom" id="ApM-oB-STM"/>
@@ -80,14 +80,20 @@
                                 <state key="normal" title="PREV">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
+                                <connections>
+                                    <action selector="prevButton:" destination="MjJ-lY-drv" eventType="touchUpInside" id="XuX-Aa-6qW"/>
+                                </connections>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <segue destination="vXZ-lx-hvc" kind="modal" identifier="toFirstView" id="xFy-mr-G18"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="OeQ-aZ-LU2" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="422" y="185"/>
+            <point key="canvasLocation" x="481" y="298"/>
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
