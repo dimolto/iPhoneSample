@@ -49,13 +49,13 @@
 }
 
 - (IBAction)nextButton:(id)sender {
+    [self performSegueWithIdentifier:@"toViewController" sender:self];
     NSLog(@"next Button");
 }
 
 /*
  - (IBAction)nextViewButton:(id)sender {
- //    [self performSegueWithIdentifier:@"toViewController" sender:self];
- NSLog(@"");
+ //  NSLog(@"");
  }
  */
 
