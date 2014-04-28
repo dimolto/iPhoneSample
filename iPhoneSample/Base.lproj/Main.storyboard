@@ -25,12 +25,21 @@
                             </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <gestureRecognizers/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="DXt-gW-J1L" appends="YES" id="Nha-53-HrQ"/>
+                        </connections>
                     </view>
                     <connections>
                         <outlet property="myLabel" destination="omR-T0-e6m" id="dKM-X4-0sP"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="DXt-gW-J1L">
+                    <connections>
+                        <action selector="myRecognizer:" destination="vXZ-lx-hvc" id="TqR-z9-5rZ"/>
+                    </connections>
+                </tapGestureRecognizer>
             </objects>
         </scene>
     </scenes>
